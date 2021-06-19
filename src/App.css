@@ -1,3 +1,27 @@
+.card-img{
+  width: 100%;
+  height: 60%;
+}
+.card{
+  max-height: 400px;
+}
+.product-grid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 1rem;
+  padding: 1rem;
+}
+.card-title,.card-text{
+  text-align: left;
+}
+header{
+  color:white;
+  text-align: left;
+  padding: 10px;
+  background-color: rgb(143, 225, 250);
+  height:50px;
+
+}
 .App {
   text-align: center;
 }
